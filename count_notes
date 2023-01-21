@@ -1,0 +1,44 @@
+amount=int(input ("enter no."))
+if amount>0:
+    a=amount//2000
+    amount=amount%2000
+    print("2000 nots in amount",a)
+if amount>0:
+    b=amount//1000
+    amount=  amount%1000
+    print("1000 nots in amount=",b)  
+if amount>0:
+    c=amount//500
+    amount=amount%500
+    print("500 notes in amount=",c) 
+if amount>0:
+    d=amount//200
+    amount=amount%200
+    print("200 notes in amount=",d)      
+if amount>0:
+    e=amount//100
+    amount=amount%100
+    print(" 100 notes in amount=",e) 
+if amount>0:
+    f=amount//50
+    amount=amount%50
+    print("50 in amount =",f) 
+if amount>20:
+   h=amount//20
+   amount=amount%20
+   print("notes  in amount=",h)
+if amount>0:
+    j=amount//5
+    amount=amount%5
+    print("notes in amount",j)
+if amount>0:
+    k=amount//2
+    amount=amount%2
+    print("notes in amount",2)  
+if amount>0:
+    l=amount//1
+    amount=amount%1
+    print("notes in amount",l)     
+else:
+    print("its not a notes")
+
